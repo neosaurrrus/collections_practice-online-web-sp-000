@@ -54,5 +54,5 @@ def add_s(arr) # Add "s" to all elements of the array except the 2nd;
       element << "s"
     end
   end
-puts newArr
+  newArr
 end
