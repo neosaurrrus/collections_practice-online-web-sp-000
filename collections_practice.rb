@@ -49,7 +49,7 @@ def sum_array(arr) #Use inject to sum all numbers in this array
 end
 
 def add_s(arr) # Add "s" to all elements of the array except the 2nd;
-  newArr = arr.each_with_index.collect do |element, index| 
+  newArr = arr.each_with_index.collect do |element, index|
     if index != 1
       element << "s"
     end
