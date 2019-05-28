@@ -50,5 +50,5 @@ end
 
 def add_s(arr) # Add "s" to all elements of the array except the 2nd;
   newArr = arr.each_with_index.collect { |element, index| index != 1 ? element << "s" : element}
-  
+
 end
