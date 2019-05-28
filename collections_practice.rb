@@ -52,6 +52,7 @@ def add_s(arr) # Add "s" to all elements of the array except the 2nd;
   newArr = arr.each_with_index.collect do |element, index|
     if index != 1
       element << "s"
+    else element
     end
   end
   newArr
